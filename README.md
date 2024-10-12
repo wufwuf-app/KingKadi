@@ -1,5 +1,5 @@
 # Introduction
-Kadi is a Kenyan card game that can be played with 2-5 players using a standard 54-card deck. The game is fast-paced and simple to learn.
+Kadi is a card game that can be played with 2-5 players using a standard 54-card deck. The game is fast-paced and simple to learn.
 
 # Objective
 The goal of Kadi is to be the first player to play all the winning cards in a single move.
