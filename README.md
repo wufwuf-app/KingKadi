@@ -44,7 +44,7 @@ If one of these cards is drawn, the dealer returns it to the draw pile, shuffles
     - Playing an Ace card. The game continues with the suit of the Ace card.
 - After a Joker card is played and the next player picks 5 cards, the next player after the penalized player is free to choose the game suit/rank.
 
-```mdx
+
 # Question Card Sequences
 
 ## Overview
@@ -98,7 +98,7 @@ QS QH 8H 8S 8D
   All sequences must follow suit-matching rules when connecting Queens (Q) 
   with Eights (8), while same card types (Q→Q or 8→8) can connect across suits.
 </Callout>
-```
+
 
 # Winning
 For a player to win, they must play all their winning cards in one move and, have had said “Niko Kadi” in the previous round. 
