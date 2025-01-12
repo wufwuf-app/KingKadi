@@ -45,6 +45,78 @@ If one of these cards is drawn, the dealer returns it to the draw pile, shuffles
 - After a Joker card is played and the next player picks 5 cards, the next player after the penalized player is free to choose the game suit/rank.
 
 
+# Ace Cards
+
+## Overview
+Ace cards in Kadi serve dual purposes: controlling game flow and blocking penalties. Players can play either one or two Aces per turn, each with distinct effects.
+
+## Single Ace Play
+A single Ace can be played at any time during a player's turn. When played:
+- Normally: Player must demand a suit for the next play
+- Against Penalties: Blocks any penalty card (2, 3, or Joker) and game continues with the Ace's suit (no demand)
+
+## Two Aces Play (AS)
+Playing two Aces simultaneously functions as an Ace of Spades (AS):
+- Player must demand both a suit AND a rank
+- Only valid ranks and suits from a standard 54-card deck can be demanded
+- Maximum of two Aces per turn, regardless of how many Aces a player holds
+
+## Demand Resolution
+
+### Suit Demands
+When a single Ace demands a suit, next player must either:
+- Play a card of the demanded suit
+- Play their own Ace to demand a new suit
+- Play multiple cards of the same rank (first card must match demanded suit)
+- Draw if no valid play is available
+
+### Rank-Suit Demands
+When two Aces/AS demands both rank and suit, next player must either:
+- Play the exact demanded card (matching both rank and suit)
+- Play an Ace to remove only the rank demand (suit demand remains)
+- Draw if neither option is available
+
+<Callout type="info">
+  Playing multiple cards is valid if the first card matches the demanded rank-suit.
+</Callout>
+
+## Breaking Demands
+
+### Rank Demands
+- Single Ace removes only the rank demand
+- Original suit demand remains active
+- Second Ace required to change suit demand
+
+### Suit Demands
+Can be changed by:
+- Playing an Ace to demand new suit
+- Playing multiple cards of same rank where first card matches current suit
+- Playing a Joker (invalidates all demands)
+
+## Special Interactions
+
+### With Penalties
+- Single Ace blocks any penalty (2, 3, Joker)
+- When using two Aces during penalty:
+  - First Ace blocks the penalty
+  - Second Ace only demands suit (penalty weakens Ace effects)
+- If demanded rank-suit is a penalty card, penalty must be addressed first
+
+### With Jokers
+- Joker invalidates all active rank and suit demands
+- After Joker penalty resolution, next player can play any card
+- Suit becomes "free" (no demands)
+
+## Control Hierarchy
+1. Multiple card plays (same rank) override Ace suit demands
+2. Joker invalidates all demands
+3. Ace plays for changing suits/ranks
+4. Regular card plays
+
+<Callout type="warning">
+  A maximum of two Aces can be played in a single turn, even if a player holds three Aces.
+</Callout>
+
 # Question Card Sequences
 
 ## Overview
